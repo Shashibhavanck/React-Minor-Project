@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&family=Raleway:wght@400;500;600;700&display=swap');
+
+
+ul{
+    margin-left: 70%;
+}
+
+li{
+    color: aquamarine;
+    display: inline-block;
+    padding: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +48,171 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+        /* home page  */
+.coloring{
+    margin-left: 0%;
+}
+
+.logo{
+    margin-left: 0%;
+}
+
+.img{
+    width: 100px;
+    height: 50px;
+    margin-left: 0%;
+}
+
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body
+{
+  background-color: #E3FCBF;
+}
+.main-heading {
+  color: red;
+}
+.home-p{
+  color: #AB46D2;
+  text-align: justify;
+}
+.float{
+  width: 250px;
+  height: 250px;
+}
+.reactimg{
+  border: 0 solid;
+  width: 1250px;
+}
+
+        /*  About me page  */
+
+.text-success{
+    text-align: center;
+}
+
+.home-pe{
+  padding-top: 60px;
+  margin-left: 0%;
+  color: red;
+  text-align: left;
+}
+.float{
+  height: 250px;
+}
+
+.home-p{
+  color: black;
+}
+
+.imgedit{
+  float: left;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+    float: right;
+    border: 2px solid salmon;
+    border-radius: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.aboutme{
+    text-align: justify;
+    color: aqua;
+    margin-left: 5px;
+    margin-right: 40px;
+    padding-top: 70px;
+    font-weight: 700;
+}
+
+        /* Contact page  */
+
+.contact__form .form-control{
+  padding: 8px;
+  margin: 5px;
+  border-radius: 0 !important;
+  line-height: 1.5;
+  color: white;
+  background-color: black;
+}
+
+.contactme{
+  font-family: 'Poppins', sans-serif;
+  color: orangered;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+
+.btn{
+  color: black;
+  border: 2px solid ;
+  border-radius: 22px;
+}
+.btn:hover{
+  color: black;
+  border: 2px solid ;
+  border-radius: 22px;
+  background-color: #00FFAB;
+}
+
+.address{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+.touch{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  color: #00FFAB;
+}
+
+span{
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.para{
+  text-align: left ;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+    /* servies page  */
+
+.main-heading{
+  margin-top: 0%;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card{
+  background-color: #00FFAB;
+}
+
+
+.html{
+  margin-left: 0%;
+  width: 50px;
+  height: 200px;
+  border: 1px solid white;
+}
+
+    /* product page  */
+
+.product{
+  margin-left: 0%;
+  border: 0 solid white;
+  border-radius: 0%;
+}
+
+.shoe{
+  text-align: center;
 }
